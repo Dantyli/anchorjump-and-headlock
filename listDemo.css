@@ -1,0 +1,88 @@
+	body {
+		width: 100%;
+		overflow: hidden;
+	}
+	
+	.ckeyWord {
+		background: #f0f0f6;
+		font-size: 0.375rem;
+		height: 0.8rem;
+		line-height: 0.8rem;
+		padding-left: 0.375rem;
+		width: 100%;
+	}
+	
+	.cityName {
+		background: #fff;
+	}
+	
+	.cityName li {
+		color: #999999;
+		margin-left: 0.375rem;
+		border-bottom: 1px solid #f0f0f6;
+		height: 1.33rem;
+		line-height: 1.33rem;
+		font-size: 0.375rem;
+	}
+	
+	#hotCity {
+		margin-top: 100px;
+	}
+	
+	#hotCity li {
+		list-style: none;
+		display: inline-block;
+		width: 33%;
+		text-align: center;
+		margin: 0;
+		/*padding-left: 0.375rem;*/
+	}
+	
+	#hotCity li:nth-child(3n) {
+		width: 32%;
+	}
+	
+	.qindex {
+		position: fixed;
+		right: 0;
+		top: 110px;
+		z-index: 9;
+	}
+	
+	.qindex li {
+		height: 0.5rem;
+		line-height: 0.5rem;
+	}
+	
+	.qindex li a {
+		width: 1rem;
+		text-align: center;
+		color: #ff5d5e;
+		display: inline-block;
+		text-decoration: none !important;
+	}
+	
+	.searchCont {
+		background: #fff;
+	}
+	
+	.header {
+		height: 100px;
+		position: fixed;
+		top: 0;
+		background: rgba(155, 155, 155, 1);
+		color: #fff;
+		width: 100%;
+		line-height: 100px;
+		text-align: center;
+		font-size: 40px;
+	}
+	
+	.fixed {
+		position: fixed;
+		top: 100px;
+	}
+	
+	.pad30 {
+		padding-top: 0.8rem;
+	}
